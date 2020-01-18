@@ -1,5 +1,5 @@
 .PHONY: test
-	
+
 deps:
 	pip install -r requirements.txt
 	pip install -r test_requirements.txt
@@ -13,3 +13,6 @@ lint:
 
 run:
 	PYTHONPATH=. FLASK_APP=hello_world flask run
+
+docker_build:
+	docker build  -t helo-world-printer .
