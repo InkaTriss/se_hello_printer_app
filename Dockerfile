@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:2.7.17
 
 ARG APP_DIR=/usr/src/hello_world_printer
 
@@ -12,4 +12,3 @@ ADD main.py $APP_DIR
 
 CMD PYTHONPATH=$PYTHONPATH:/usr/scr/hello_world_printer \
     FLASK_APP=hello_world flask run --host=0.0.0.0
-    

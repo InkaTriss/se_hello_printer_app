@@ -8,9 +8,6 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   ::
 
-    # centos, add to ~/.bashrc
-    $ source /usr/bin/virtualenvwrapper.sh
-
     # ubuntu, add to ~/.bashrc
     $ source /usr/local/bin/virtualenvwrapper.sh
 
@@ -78,12 +75,12 @@ Ubuntu
 - Instalacja dockera: `dockerce howto <https://docs.docker.com/install/linux/docker-ce/ubuntu/>`_
 
 Centos
-------
+------make
 
 - Instalacja python virtualenv i virtualenvwrapper:
 
   ::
-
+python
     $ yum install -y python-pip
     $ pip install -U pip
     $ pip install virtualenv
