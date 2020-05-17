@@ -4,6 +4,10 @@ pipeline {
         stage('Test') {
             steps {
 	            sh 'make deps'
+		}
+	}
+	stage('Test') {
+	     steps {
 	            sh 'make test'
         	}
         }
