@@ -1,2 +1,6 @@
 **/*.pyc
 .cache
+.venv/
+test_reults.xml
+coverage.xml
+.coverage
