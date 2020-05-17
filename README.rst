@@ -74,39 +74,5 @@ Ubuntu
 
 - Instalacja dockera: `dockerce howto <https://docs.docker.com/install/linux/docker-ce/ubuntu/>`_
 
-Centos
-------make
-
-- Instalacja python virtualenv i virtualenvwrapper:
-
-  ::
-python
-    $ yum install -y python-pip
-    $ pip install -U pip
-    $ pip install virtualenv
-    $ pip install virtualenvwrapper
-
-- Instalacja docker-a:
-
-  ::
-
-    $ yum remove docker \
-        docker-common \
-        container-selinux \
-        docker-selinux \
-        docker-engine
-
-    $ yum install -y yum-utils
-
-    $ yum-config-manager \
-      --add-repo \
-      https://download.docker.com/linux/centos/docker-ce.repo
-
-    $ yum makecache fast
-    $ yum install -y docker-ce
-    $ systemctl start docker
-
-Materiały
-=========
 
 - https://virtualenvwrapper.readthedocs.io/en/latest/
