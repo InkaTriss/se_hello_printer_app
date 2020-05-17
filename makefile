@@ -11,7 +11,7 @@ test_cov:
 test_xunit:
 	PYTHONPATH=. py.test -s --cov=. --cov-report xml --junit-xml=test_tesults.xml
 
-test smoke:
+test_smoke:
 	curl --fail 127.0.0.1:5000
 
 lint:
