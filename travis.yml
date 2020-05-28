@@ -1,9 +1,9 @@
-language: python-2.7.17
+language: python 
 
 services:
   -docker
 python:
-  -"2.7.17"
+  -"3.8"
 install:
   - make deps
 
@@ -12,4 +12,8 @@ script:
   - make lint
   - make docker_build
   - make docker_push
-  
+ 
+deploy:
+	provider: heroku 
+	app: agile-earth-92976
+	api_key: ${HEROKU_API_KEY}

@@ -11,6 +11,11 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
     # ubuntu, add to ~/.bashrc
     $ source /usr/local/bin/virtualenvwrapper.sh
 
+    # jesli wywala blad to wklej to :
+    $ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+
+
+
     # tworzymy hermetyczne środowisko dla bibliotek aplikacji:
     $ mkvirtualenv wsb-simple-flask-app
 
