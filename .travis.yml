@@ -3,7 +3,7 @@ language: python
 services:
   -docker
 python:
-  -"3.8.2"
+  -"3.8"
 install:
   - make deps
 
