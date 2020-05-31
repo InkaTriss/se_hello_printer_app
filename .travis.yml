@@ -5,7 +5,7 @@ dist: xenial
 services:
   -docker
 python:
-  -"3.8"
+  -3.8
 
 
 install:
