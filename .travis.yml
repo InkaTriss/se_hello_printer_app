@@ -8,12 +8,11 @@ install:
   - make deps
 
 script:
-  - make test
   - make lint
   - make docker_build
   - make docker_push
   - make test_xunit
 deploy:
   provider: heroku
-  app: agile-earth-92976
+  app: young-headland-75288
   api_key: ${HEROKU_API_KEY}
