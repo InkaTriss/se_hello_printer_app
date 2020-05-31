@@ -21,7 +21,6 @@ test:
 	PYTHONPATH=. py.test  --verbose -s
 
 test_cov:
-	PYTHONPATH=. py.test --verbose -s --cov=.
 	PYTHONPATH=. py.test --verbose -s --cov=. --cov-report xml
 
 test_xunit:
