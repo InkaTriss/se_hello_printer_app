@@ -1,9 +1,12 @@
 language: python
 
+dist: xenial
+
 services:
   -docker
 python:
   -"3.8"
+
 
 install:
   - make deps
