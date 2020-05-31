@@ -1,10 +1,10 @@
-FROM python:3.8
+FROM python:3
 
 ARG APP_DIR=/usr/src/hello_world_printer
 
 WORKDIR /tmp
 ADD requirements.txt /tmp/requirements.txt
-RUN pip install -r /tmp/requirements.txt
+RUN pip3 install -r /tmp/requirements.txt
 
 RUN mkdir -p $APP_DIR
 ADD hello_world/ $APP_DIR/hello_world/
