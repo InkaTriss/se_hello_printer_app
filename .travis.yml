@@ -7,16 +7,15 @@ services:
 python:
   - 3.8
 
-
 install:
   - make deps
-
 script:
   - make lint
+  - make test_xunit
   - make docker_build
   - make docker_push
-  - make test_xunit
+  
 deploy:
   provider: heroku
   app: young-headland-75288
-  api_key: ${HEROKU_API_KEY}
+  api_key: ${HEROKU_API_KEY}  
