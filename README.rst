@@ -6,16 +6,15 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Rozpocząnając pracę z projektem (wykorzystując virtualenv). Hermetyczne środowisko dla pojedyńczej aplikacji w python-ie:
 
-#TravisCl Badge:
+TravisCl Badge:
 
 
 .. image:: https://travis-ci.org/InkaTriss/se_hello_printer_app1.svg?branch=master
 
-
-#StatusCake Badge:
+StatusCake Badge:
 
 .. image:: https://app.statuscake.com/button/index.php?Track=oLyPwstxt2&Days=1&Design=1
-https://app.statuscake.com/UptimeStatus.php?tid=5507344
+
 
   ::
 
