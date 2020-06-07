@@ -14,7 +14,7 @@ TravisCl Badge:
 StatusCake Badge:
 
 .. image:: https://app.statuscake.com/button/index.php?Track=oLyPwstxt2&Days=1&Design=1
-
+https://app.statuscake.com/UptimeStatus.php?tid=5507344
 
   ::
 
