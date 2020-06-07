@@ -10,13 +10,13 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 
 .. image:: https://travis-ci.org/InkaTriss/se_hello_printer_app1.svg?branch=master
-:target: https://travis-ci.org/InkaTriss/se_hello_printer_app1
+
 
 #StatusCake Badge:
 
 
 .. image:: https://app.statuscake.com/button/index.php?Track=oLyPwstxt2&Days=1&Design=1
-:target: https://app.statuscake.com/UptimeStatus.php?tid=5507344
+
 
   ::
 
