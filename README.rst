@@ -14,9 +14,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 #StatusCake Badge:
 
-
-.. image:: https://app.statuscake.com/button/index.php?Track=oLyPwstxt2&Days=1&Design=1
-
+.. image:: https://app.statuscake.com/button/index.php?Track=oLyPwstxt2&Days=1&Design=1:target:https://app.statuscake.com/UptimeStatus.php?tid=5507344
 
   ::
 
