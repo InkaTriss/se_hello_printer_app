@@ -4,6 +4,7 @@ from hello_world.formater import SUPPORTED
 
 exp = b"<greetings><name>Paulina</name><msg>Hello World!</msg></greetings>"
 
+
 class FlaskrTestCase(unittest.TestCase):
     def setUp(self):
         app.config["TESTING"] = True
@@ -18,7 +19,7 @@ class FlaskrTestCase(unittest.TestCase):
         rv = self.app.get("/?output=json")
         self.assertEqual(b'{"imie":"Paulina","mgs":"Hello World!"}', rv.data)
 
-    def test_msg_with_output(self):
+    def test_msg_with_output_xml(self):
         rv = self.app.get("/?output=xml")
         self.assertEqual(
             exp, rv.data,
